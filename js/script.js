@@ -1,18 +1,49 @@
-// creo gli array coi nomi ruoli e stringhe immagini
+//creo l' array di oggetti
 
-const names = ['Wayne Barnett' , 'Angela Caroll' , 'Walter Gordon' , 'Angela Lopez' , 'Scott Estrada' , 'Barbara Ramos'];
+const teamInfo = [
+    {
+        name: 'Wayne Barnett',
+        role: 'Found er&CEO',
+        immagine: 'wayne-barnett-founder-ceo.jpg'
+    },
 
-const roles = ['Founder & CEO' , 'Chief Editor' , 'Office Manager' , 'Social Media Manager' , 'Developer' , 'Graphic Designer'];
+    {
+        name: 'Angela Caroll' ,
+        role: 'Chief Editor',
+        immagine: 'angela-caroll-chief-editor.jpg'
+    },
 
-const images = [' wayne-barnett-founder-ceo.jpg' , 'angela-caroll-chief-editor.jpg' , 'walter-gordon-office-manager.jpg' , 'angela-lopez-social-media-manager.jpg' , 'scott-estrada-developer.jpg' , 'barbara-ramos-graphic-designer.jpg'];
+    
+    {
+        name: 'Walter Gordon' ,
+        role: 'Office Manager',
+        immagine: 'walter-gordon-office-manager.jpg'
+    },
 
-//creo l'ogetto con dentro le strighe
+    {
+        name: 'Angela Lopez' ,
+        role: 'Social Media Manager',
+        immagine: 'angela-lopez-social-media-manager.jpg'
+    },
 
-const teamInfo = {
-    names: [],
-    roles: [],
-    images: [],
+    {
+        name: 'Scott Estrada',
+        role: 'Developer',
+        immagine: 'scott-estrada-developer.jpg'
+    },
+
+    {
+        name: 'Barbara Ramos' ,
+        role: 'Graphic Designer',
+        immagine: 'barbara-ramos-graphic-designer.jpg' 
+    }
+    
+]
+
+teamInfo[0].name
+teamInfo[0]['name']
+
+for (const key in teamInfo) {
+    console.log(key , teamInfo[key]);
 }
-
-
 
