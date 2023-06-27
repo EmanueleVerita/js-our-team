@@ -45,11 +45,42 @@ teamInfo[0]['name']
 
 */
 
-for (const key in teamInfo) {
-    console.log(key , teamInfo[key]);
+const ulTeam = document.getElementById('team-list');
 
+for(let i = 0 ; i < teamInfo.length ; i++){
+    const singleMember = teamInfo[i];
+    console.log(singleMember);
+
+
+    ulTeam.innerHTML = ulTeam.innerHTML + `
     
+    <li>
+        <h2>
+            ${singleMember.name}
+        </h2>
+
+        <h3>
+            ${singleMember.role}
+        </h3>
+
+        <div>
+            <img src="${singleMember.immagine}">
+        </div>
+
+    </li>
+    
+    
+    `
+
+
+    for (const key in singleMember) {
+        console.log(key , singleMember[key]);
+    
+        
+    }
+
+
 }
 
-const printTeamInfo = document.querySelector('div');
-printTeamInfo.innerHTML = JSON.stringify(teamInfo[0]) + ' ' + JSON.stringify(teamInfo[1] + ' ' + JSON.stringify(teamInfo[2]) + ' ' + JSON.stringify(teamInfo[3]) + ' ' + JSON.stringify(teamInfo[4]) + ' ' + JSON.stringify(teamInfo[5]));
+
+
