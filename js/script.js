@@ -4,38 +4,38 @@ const teamInfo = [
     {
         name: 'Wayne Barnett',
         role: 'Founder&CEO',
-        immagine: 'wayne-barnett-founder-ceo.jpg'
+        immagine: './img/wayne-barnett-founder-ceo.jpg'
     },
 
     {
         name: 'Angela Caroll' ,
         role: 'Chief Editor',
-        immagine: 'angela-caroll-chief-editor.jpg'
+        immagine: './img/angela-caroll-chief-editor.jpg'
     },
 
     
     {
         name: 'Walter Gordon' ,
         role: 'Office Manager',
-        immagine: 'walter-gordon-office-manager.jpg'
+        immagine: './img/walter-gordon-office-manager.jpg'
     },
 
     {
         name: 'Angela Lopez' ,
         role: 'Social Media Manager',
-        immagine: 'angela-lopez-social-media-manager.jpg'
+        immagine: './img/angela-lopez-social-media-manager.jpg'
     },
 
     {
         name: 'Scott Estrada',
         role: 'Developer',
-        immagine: 'scott-estrada-developer.jpg'
+        immagine: './img/scott-estrada-developer.jpg'
     },
 
     {
         name: 'Barbara Ramos' ,
         role: 'Graphic Designer',
-        immagine: 'barbara-ramos-graphic-designer.jpg' 
+        immagine: './img/barbara-ramos-graphic-designer.jpg' 
     }
     
 ]
